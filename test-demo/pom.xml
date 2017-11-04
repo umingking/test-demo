@@ -45,7 +45,7 @@
 		<fastjson.version>1.1.41</fastjson.version>
 		
 		 <!--  MyBatis Generator  -->
-	    <basedir>D:/workspace/social-security-dispatcher</basedir>
+	    <basedir>D:/workspace/test-demo</basedir>
 	    <targetJavaProject>${basedir}/src/main/java</targetJavaProject>
 	    <targetModelPackage>com.test.dispatcher.entity</targetModelPackage>
 	    <targetDaoPackage>com.test.dispatcher.map</targetDaoPackage>
