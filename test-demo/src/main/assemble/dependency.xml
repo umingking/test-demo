@@ -1,0 +1,25 @@
+<assembly>
+    <id>package</id>
+    <formats>
+        <format>tar</format>
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>src/main/bin</directory>
+            <outputDirectory>/bin</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/classes/conf</directory>
+            <outputDirectory>/conf</outputDirectory>
+        </fileSet>
+    </fileSets>
+    
+   <dependencySets>
+		<dependencySet>
+		    <useProjectArtifact>true</useProjectArtifact> 
+			<outputDirectory>lib</outputDirectory>
+		</dependencySet>
+	</dependencySets>
+	
+</assembly>
