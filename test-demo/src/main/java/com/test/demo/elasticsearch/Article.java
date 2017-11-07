@@ -1,13 +1,6 @@
 package com.test.demo.elasticsearch;
 
-/**
- * 
- * @author jinyouming
- * @email jinyouming@tuandai.com
- * @date 2017-11-4 下午6:08:33
- * @Copyright Copyright (c) 2017 Niiwoo Inc. All Rights Reserved.
- * @desc
- */
+
 public class Article {
 
     public static final String DEFAULT_TEMPLATE = "frontViewArticle";

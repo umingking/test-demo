@@ -4,7 +4,7 @@
   <artifactId>test-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <name>crawler-sf-facade-impl</name>
+  <name>test-demo</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -67,13 +67,13 @@
 		<repository>
 			<id>nexus-repos</id>
 			<name>Team Nexus Repository</name>
-			<url>http://192.168.18.14:8080/nexus/content/groups/public</url>
+			<url>http://192.168.0.1:8080/nexus/content/groups/public</url>
 		</repository>
 
 		<repository>
 			<id>nexus-repos-thirdparty</id>
 			<name>Team Nexus Repository thirdparty</name>
-			<url>http://192.168.18.14:8080/nexus/content/repositories/thirdparty</url>
+			<url>http://192.168.0.1:8080/nexus/content/repositories/thirdparty</url>
 		</repository>
 
 	</repositories>
@@ -83,12 +83,12 @@
 		<repository>
 			<id>release</id>
 			<name>Release Repository</name>
-			<url>http://192.168.18.14:8080/nexus/content/repositories/releases</url>
+			<url>http://192.168.0.1:8080/nexus/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>Snapshot Repository</name>
-			<url>http://192.168.18.14:8080/nexus/content/repositories/snapshots</url>
+			<url>http://192.168.0.1:8080/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 	

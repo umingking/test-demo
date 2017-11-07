@@ -14,14 +14,7 @@ import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.util.Assert;
 
-/**
- * 
- * @author jinyouming
- * @email jinyouming@tuandai.com
- * @date 2017-11-4 上午11:21:51
- * @Copyright Copyright (c) 2017 Niiwoo Inc. All Rights Reserved.
- * @desc
- */
+
 public class TransportClientFactoryBean implements FactoryBean<TransportClient>, InitializingBean, DisposableBean {
 
     private static final Logger logger = Logger.getLogger(TransportClientFactoryBean.class);

@@ -30,14 +30,7 @@ import org.slf4j.LoggerFactory;
 
 import com.alibaba.fastjson.JSON;
 
-/**
- *
- * @author jinyouming
- * @email  jinyouming@tuandai.com
- * @date   2017-11-4 下午5:58:59
- * @Copyright Copyright (c) 2017 Niiwoo Inc. All Rights Reserved.
- * @desc
- */
+
 public class TransportClientRepository {
     
     private static final Logger log =LoggerFactory.getLogger(TransportClientRepository.class);

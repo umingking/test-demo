@@ -9,14 +9,7 @@ import com.test.demo.elasticsearch.Article;
 import com.test.demo.elasticsearch.ElasticSearchPage;
 import com.test.demo.elasticsearch.TransportClientRepository;
 
-/**
- *
- * @author jinyouming
- * @email  jinyouming@tuandai.com
- * @date   2017-11-4 下午5:35:09
- * @Copyright Copyright (c) 2017 Niiwoo Inc. All Rights Reserved.
- * @desc
- */
+
 public class ElasticSearchBaseTest extends BaseTest {
     
     @Resource(name="transportClientRepository")
