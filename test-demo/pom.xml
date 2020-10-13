@@ -10,7 +10,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.7</jdk.version>
 
-		<junit.version>4.12</junit.version>
+		<junit.version>4.13.1</junit.version>
 	
 		<commons-lang3.version>3.3.2</commons-lang3.version>
 		<log4j.version>1.2.27</log4j.version>
