@@ -35,7 +35,7 @@
 		<jedis.version>2.4.2</jedis.version>
 		<zookeeper.version>3.4.6</zookeeper.version>
 		<zkclient.version>0.4</zkclient.version>
-		<mongo.spring.version>1.10.4.RELEASE</mongo.spring.version>
+		<mongo.spring.version>3.3.5</mongo.spring.version>
 		<mongo.java.driver.version>3.4.2</mongo.java.driver.version>
 
 		<protobuf.version>3.0.0-alpha-3.1</protobuf.version>
